@@ -1,0 +1,36 @@
+{
+  "id": "/",
+  "name": "饭点见 · 南京大学校园试点",
+  "short_name": "饭点见",
+  "description": "按校区、饭点和偏好找午餐搭子，分享双人套餐招募。",
+  "lang": "zh-CN",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#fffaf0",
+  "theme_color": "#fffaf0",
+  "icons": [
+    {
+      "src": "/app-icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/app-icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "我的饭局",
+      "url": "/#mine"
+    },
+    {
+      "name": "发布饭局",
+      "url": "/#publish"
+    }
+  ]
+}

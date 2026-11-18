@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#fffaf0">
+<title>饭点见 · 南京大学试点</title>
+<meta name="description" content="在同一个午餐饭点找校园饭搭子。浏览饭局，确认赴约，饭后双向邀约。">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="app-icon-192.png" type="image/png">
+<link rel="apple-touch-icon" href="app-icon-192.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<link rel="stylesheet" href="nju.css">
+</head>
+<body>
+<a class="skip-link" href="#content">跳到主要内容</a>
+<header><div class="shell bar">
+<button class="brand" data-nav="browse"><span class="logo" aria-hidden="true">饭</span><span>饭点见<span class="brand-campus">南京大学试点</span></span></button>
+<nav class="nav" aria-label="主导航">
+<button data-nav="browse"><span class="nav-mark" aria-hidden="true">⌂</span>首页</button>
+<button data-nav="match"><span class="nav-mark" aria-hidden="true">✦</span>找搭子</button>
+<button data-nav="shops"><span class="nav-mark" aria-hidden="true">▤</span>店铺</button>
+<button data-nav="mine"><span class="nav-mark" aria-hidden="true">◷</span>饭局</button>
+<button data-nav="profile"><span class="nav-mark" aria-hidden="true">◉</span>我的</button>
+</nav><span class="demo-label">试点演示</span></div></header>
+<main id="content" class="shell"><div id="app" tabindex="-1"></div></main>
+<div class="shell toast" id="notice" role="status" aria-live="polite"></div>
+<footer class="shell row"><span>饭点见 · 校园项目演示</span><div class="footer-actions"><button class="link-button" data-nav="store">门店核销</button><button class="link-button" data-action="reset">重置演示</button></div></footer>
+<dialog id="dialog" aria-labelledby="dialogTitle"><div id="dialogContent"></div></dialog>
+<script src="app.js"></script>
+<script src="install.js"></script>
+</body></html>

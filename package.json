@@ -1,0 +1,14 @@
+{
+  "name": "fandianjian",
+  "version": "0.8.1",
+  "private": true,
+  "description": "饭点见校园午餐约伴，可独立部署的开源 PWA",
+  "scripts": {
+    "test": "node --check app.js && node --check install.js && node --check sw.js && node --test tests/*.test.cjs",
+    "start": "node live/server.mjs"
+  },
+  "engines": {
+    "node": ">=24"
+  },
+  "license": "MIT"
+}
